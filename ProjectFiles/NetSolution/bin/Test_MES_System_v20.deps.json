@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Test_MES_System_v20/1.0.0": {
+        "runtime": {
+          "Test_MES_System_v20.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test_MES_System_v20/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

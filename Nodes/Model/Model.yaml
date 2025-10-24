@@ -1,0 +1,7 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Users_Management/Users_Management.yaml
+- File: Config/Config.yaml
+- File: PLCTags/PLCTags.yaml
+- File: LogTriggers/LogTriggers.yaml

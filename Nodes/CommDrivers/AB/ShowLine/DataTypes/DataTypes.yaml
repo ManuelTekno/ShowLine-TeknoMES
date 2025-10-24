@@ -1,0 +1,602 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: z_LogTriggers
+  Id: g=a30b62e2577ab2ae81bc99bf276cf24f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "z_LogTriggers",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a30b62e2577ab2ae81bc99bf276cf24f",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "Ready_to_Receive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pallet_Arrived",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PalletID_Read",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready_to_Send",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Released",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"z_LogTriggers"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: To_MES
+  Id: g=9696811cbc289364d59dc1edc565ff00
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "To_MES",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9696811cbc289364d59dc1edc565ff00",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "ValidationCode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "PalletID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Command",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Results",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a8e783158bd17e3a6f326ff034b36596",
+       "Namespace": 28
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "CycleTime",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Operation",
+      "DataType": {
+       "IdType": 2,
+       "Id": "4cdba0c045665ba7b68a8893d0bd6bda",
+       "Namespace": 28
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"To_MES"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: From_MES_Operation
+  Id: g=4cdba0c045665ba7b68a8893d0bd6bda
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "From_MES_Operation",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4cdba0c045665ba7b68a8893d0bd6bda",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "Enable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Type",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Behavior",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Value_STRING",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Value_REAL",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"From_MES_Operation"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: From_MES
+  Id: g=ec36df4e7ee557e5c0049c4e71cf295f
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "From_MES",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ec36df4e7ee557e5c0049c4e71cf295f",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "Destination",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Response",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Operation_Index",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Operations",
+      "DataType": {
+       "IdType": 2,
+       "Id": "4cdba0c045665ba7b68a8893d0bd6bda",
+       "Namespace": 28
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10]
+     },{
+      "Name": "RemainingTime",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"From_MES"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MES_Station
+  Id: g=7eb5baaecbcf3ff0b061f3572a5337bb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MES_Station",
+    "DataType": {
+     "IdType": 2,
+     "Id": "7eb5baaecbcf3ff0b061f3572a5337bb",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "From",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ec36df4e7ee557e5c0049c4e71cf295f",
+       "Namespace": 28
+      }
+     },{
+      "Name": "To",
+      "DataType": {
+       "IdType": 2,
+       "Id": "9696811cbc289364d59dc1edc565ff00",
+       "Namespace": 28
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MES_Station"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ac_DataLog
+  Id: g=fd37be33d04ef035fe852d86460d965e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ac_DataLog",
+    "DataType": {
+     "IdType": 2,
+     "Id": "fd37be33d04ef035fe852d86460d965e",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "LIFT01",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP110",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP115",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP120",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP125",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP130",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP135",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP140",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP145",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP150",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP155",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP160",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "STP165",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "LIFT02",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "RTN01",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "RTN02",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     },{
+      "Name": "PD01",
+      "DataType": {
+       "IdType": 2,
+       "Id": "cfd8b81453c358a583ff60b053498ce3",
+       "Namespace": 28
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ac_DataLog"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: z_StationData
+  Id: g=cfd8b81453c358a583ff60b053498ce3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "z_StationData",
+    "DataType": {
+     "IdType": 2,
+     "Id": "cfd8b81453c358a583ff60b053498ce3",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "TimeStampSTR",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "StopID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "PalletID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "EventType",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "DateID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "CustomerID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "PlantID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "ServerID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "DepartmentID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "LineID",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Logging",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "4598f642c5e2b7969827435069f33d41",
+       "Namespace": 28
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [11]
+     },{
+      "Name": "Triggers",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a30b62e2577ab2ae81bc99bf276cf24f",
+       "Namespace": 28
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"z_StationData"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: To_MES_Operation
+  Id: g=a8e783158bd17e3a6f326ff034b36596
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "To_MES_Operation",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a8e783158bd17e3a6f326ff034b36596",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "Complete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Result_STRING",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Result_REAL",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"To_MES_Operation"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ap_PickToLight
+  Id: g=799b84d321b7146b64376816fa785925
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ap_PickToLight",
+    "DataType": {
+     "IdType": 2,
+     "Id": "799b84d321b7146b64376816fa785925",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "WriteBins_STRING",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "RequestNext_BOOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Complete_BOOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ack_BOOL",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ap_PickToLight"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER
+  Id: g=4598f642c5e2b7969827435069f33d41
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4598f642c5e2b7969827435069f33d41",
+     "Namespace": 28
+    },
+    "Fields": [{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

@@ -1,0 +1,12 @@
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\bin\Test_MES_System_v20.deps.json
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\bin\Test_MES_System_v20.dll
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\bin\Test_MES_System_v20.pdb
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.csproj.AssemblyReference.cache
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.AssemblyInfoInputs.cache
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.AssemblyInfo.cs
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.csproj.CoreCompileInputs.cache
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.dll
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\refint\Test_MES_System_v20.dll
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\Test_MES_System_v20.pdb
+C:\Users\ManuelPadilla\OneDrive - Tekno, Inc\Documents\Rockwell Automation\FactoryTalk Optix\Projects\Test_MES_System_v20\ProjectFiles\NetSolution\obj\Debug\ref\Test_MES_System_v20.dll

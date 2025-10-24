@@ -1,0 +1,118 @@
+Name: Config
+Type: FolderType
+Children:
+- Name: OperationType
+  Type: BaseObjectType
+  Children:
+  - Name: INT
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "INT"
+  - Name: FLOAT
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "FLOAT"
+  - Name: STRING
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STRING"
+- Name: OperationsList
+  Type: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: ["0","0","0","0","0"]
+  - Name: ParamterName
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: ["0","0","0","0","0"]
+  - Name: ParameterValue
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: ["0","0","0","0","0"]
+- Name: PassedVariables
+  Type: BaseObjectType
+  Children:
+  - Name: String1
+    Id: g=2fdbd2c202bfe4fb486102822fc268a6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: String2
+    Id: g=11d6deda48a7948b1eebda6aafade221
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: String3
+    Id: g=2139b7f251d352af4bd1156ec57cf191
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: UnitQuality
+  Id: g=89b8b39f994db7afd2bde27af766b155
+  Type: BaseObjectType
+  Children:
+  - Name: Pass
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Pass"
+  - Name: Rework
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Rework"
+- Name: Destination
+  Id: g=4b45805017ef0959c5b6a6750f319c2f
+  Type: BaseObjectType
+  Children:
+  - Name: Center
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 1
+  - Name: Left
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 2
+  - Name: Right
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 3
+- Name: UnitStatus
+  Id: g=6dc6bdd684310f18362b71cd0f237fea
+  Type: BaseObjectType
+  Children:
+  - Name: Empty
+    Id: g=8d93eca120cf4ea3bf26af184ea6d9f1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Empty"
+  - Name: InProcess
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "InProcess"
+  - Name: Completed
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Completed"
+  - Name: Failed
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Failed"
+- Name: Enabled
+  Id: g=f0556551598c7d381e552c3c8b3160b1
+  Type: BaseObjectType
+  Children:
+  - Name: Yes
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Yes"
+  - Name: No
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "No"

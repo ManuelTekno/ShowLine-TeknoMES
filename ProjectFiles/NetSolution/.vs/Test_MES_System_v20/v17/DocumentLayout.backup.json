@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|c:\\users\\manuelpadilla\\onedrive - tekno, inc\\documents\\rockwell automation\\factorytalk optix\\projects\\test_mes_system_v20\\projectfiles\\netsolution\\repositories\\variantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|solutionrelative:repositories\\variantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|c:\\users\\manuelpadilla\\onedrive - tekno, inc\\documents\\rockwell automation\\factorytalk optix\\projects\\test_mes_system_v20\\projectfiles\\netsolution\\stations\\station_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|solutionrelative:stations\\station_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|c:\\users\\manuelpadilla\\onedrive - tekno, inc\\documents\\rockwell automation\\factorytalk optix\\projects\\test_mes_system_v20\\projectfiles\\netsolution\\createpalletpopupnetlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|solutionrelative:createpalletpopupnetlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|c:\\users\\manuelpadilla\\onedrive - tekno, inc\\documents\\rockwell automation\\factorytalk optix\\projects\\test_mes_system_v20\\projectfiles\\netsolution\\core\\stationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|solutionrelative:core\\stationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|c:\\users\\manuelpadilla\\onedrive - tekno, inc\\documents\\rockwell automation\\factorytalk optix\\projects\\test_mes_system_v20\\projectfiles\\netsolution\\stations\\picktolightbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|solutionrelative:stations\\picktolightbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|c:\\users\\manuelpadilla\\onedrive - tekno, inc\\documents\\rockwell automation\\factorytalk optix\\projects\\test_mes_system_v20\\projectfiles\\netsolution\\startuplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27371B57-E7DE-D3A3-1E31-380F1F05FAFD}|Test_MES_System_v20.csproj|solutionrelative:startuplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VariantsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Repositories\\VariantsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\VariantsRepository.cs",
+              "ToolTip": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Repositories\\VariantsRepository.cs",
+              "RelativeToolTip": "Repositories\\VariantsRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:44:38.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Core\\StationCommand.cs",
+              "RelativeDocumentMoniker": "Core\\StationCommand.cs",
+              "ToolTip": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Core\\StationCommand.cs",
+              "RelativeToolTip": "Core\\StationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T00:58:51.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatePalletPopupNETLogic.cs",
+              "DocumentMoniker": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\CreatePalletPopupNETLogic.cs",
+              "RelativeDocumentMoniker": "CreatePalletPopupNETLogic.cs",
+              "ToolTip": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\CreatePalletPopupNETLogic.cs",
+              "RelativeToolTip": "CreatePalletPopupNETLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:28:34.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PickToLightBroadcaster.cs",
+              "DocumentMoniker": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Stations\\PickToLightBroadcaster.cs",
+              "RelativeDocumentMoniker": "Stations\\PickToLightBroadcaster.cs",
+              "ToolTip": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Stations\\PickToLightBroadcaster.cs",
+              "RelativeToolTip": "Stations\\PickToLightBroadcaster.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAkwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:59:26.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Station_Base.cs",
+              "DocumentMoniker": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Stations\\Station_Base.cs",
+              "RelativeDocumentMoniker": "Stations\\Station_Base.cs",
+              "ToolTip": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\Stations\\Station_Base.cs",
+              "RelativeToolTip": "Stations\\Station_Base.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwIUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T22:13:02.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartupLogic.cs",
+              "DocumentMoniker": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\StartupLogic.cs",
+              "RelativeDocumentMoniker": "StartupLogic.cs",
+              "ToolTip": "C:\\Users\\ManuelPadilla\\OneDrive - Tekno, Inc\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\Test_MES_System_v20\\ProjectFiles\\NetSolution\\StartupLogic.cs",
+              "RelativeToolTip": "StartupLogic.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T20:12:55.42Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

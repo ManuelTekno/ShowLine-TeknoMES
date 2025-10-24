@@ -1,0 +1,686 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: Tekno_Local_Database
+  Id: g=acdbe2b3604dfa29aafd705567a663d4
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: users
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: user_name
+          Type: StoreColumn
+          DataType: String
+        - Name: user_password
+          Type: StoreColumn
+          DataType: String
+        - Name: rol
+          Type: StoreColumn
+          DataType: String
+        - Name: date_created
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: last_login_date
+          Type: StoreColumn
+          DataType: DateTime
+    - Name: stations
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+        - Name: description
+          Type: StoreColumn
+          DataType: String
+        - Name: dependency
+          Type: StoreColumn
+          DataType: Int32
+        - Name: plctagname
+          Type: StoreColumn
+          DataType: String
+    - Name: operations_type
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+    - Name: operations
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: recipe_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: operation_type_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: index_number
+          Type: StoreColumn
+          DataType: Int32
+    - Name: variants
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+        - Name: serial_code
+          Type: StoreColumn
+          DataType: String
+        - Name: description
+          Type: StoreColumn
+          DataType: String
+    - Name: recipes
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: station_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: variant_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+    - Name: operations_behavior
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+        - Name: description
+          Type: StoreColumn
+          DataType: String
+    - Name: production_units
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: serial_code
+          Type: StoreColumn
+          DataType: String
+        - Name: creation_date
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: unit_status
+          Type: StoreColumn
+          DataType: String
+        - Name: quality_status
+          Type: StoreColumn
+          DataType: String
+        - Name: current_station_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: pallet_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: variant_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: finished_at
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: is_archived
+          Type: StoreColumn
+          DataType: Int16
+    - Name: pallets
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: rfid_tag
+          Type: StoreColumn
+          DataType: String
+        - Name: description
+          Type: StoreColumn
+          DataType: String
+    - Name: production_unit_results
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: unit_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: station_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: cycle_time
+          Type: StoreColumn
+          DataType: Float
+        - Name: status
+          Type: StoreColumn
+          DataType: String
+        - Name: finished_at
+          Type: StoreColumn
+          DataType: DateTime
+    - Name: production_unit_operation_results
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: unit_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: operation_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+        - Name: parameter
+          Type: StoreColumn
+          DataType: String
+        - Name: value
+          Type: StoreColumn
+          DataType: String
+        - Name: result
+          Type: StoreColumn
+          DataType: String
+    - Name: station_routes
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: station_id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: quality
+          Type: StoreColumn
+          DataType: String
+        - Name: destination
+          Type: StoreColumn
+          DataType: Int16
+        - Name: priority
+          Type: StoreColumn
+          DataType: Int32
+        - Name: enabled
+          Type: StoreColumn
+          DataType: Int16
+    - Name: pick_to_light_bins
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: Int32
+        - Name: bin_position
+          Type: StoreColumn
+          DataType: Int32
+        - Name: bin_label
+          Type: StoreColumn
+          DataType: String
+        - Name: part_number
+          Type: StoreColumn
+          DataType: String
+        - Name: active
+          Type: StoreColumn
+          DataType: Int16
+        - Name: last_updated
+          Type: StoreColumn
+          DataType: DateTime
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 3
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "djohnson "
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    SecretValue: wq+kOye54jn7NMv0/plHVXwxeRHpRPlennCSh23LnUlisW0LKA==
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: SFBufferOverflow
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: DSN
+    Type: PropertyType
+    DataType: String
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+    Value: "192.168.40.71"
+  - Name: Port
+    Type: PropertyType
+    DataType: UInt16
+    Value: 3306
+  - Name: Database
+    Type: PropertyType
+    DataType: String
+    Value: "teknomes"
+  - Name: SFBufferOverwrite
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Test_Cloud_Database
+  Id: g=d96a9bd051f3e275f6d5dd6c76008243
+  Type: ODBCStore
+  Description: {"LocaleId":"en-US","Text":"34.57.133.28"}
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: tekno_push
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: PalletID
+          Type: StoreColumn
+          DataType: String
+        - Name: EventType
+          Type: StoreColumn
+          DataType: String
+        - Name: StopID
+          Type: StoreColumn
+          DataType: String
+        - Name: CustomerID
+          Type: StoreColumn
+          DataType: String
+        - Name: PlantID
+          Type: StoreColumn
+          DataType: String
+        - Name: ServerID
+          Type: StoreColumn
+          DataType: String
+        - Name: DepartmentID
+          Type: StoreColumn
+          DataType: String
+        - Name: LineID
+          Type: StoreColumn
+          DataType: String
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 3
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "tekno"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    SecretValue: +lxzPH3cMF7wV2q59NSHWMLLqVjH+2LAkI3YYTG8et7+i0IljywtSlpLl1wtfdhDudr0g35BV9ninQ==
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: SFBufferOverflow
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SFBufferOverwrite
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+    Value: "34.57.133.28"
+  - Name: Port
+    Type: PropertyType
+    DataType: UInt16
+    Value: 3306
+  - Name: Database
+    Type: PropertyType
+    DataType: String
+    Value: "teknomes"

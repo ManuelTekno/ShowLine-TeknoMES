@@ -1,0 +1,253 @@
+Name: Communication
+Id: g=a37802f146fd09a0e60de6192af790c8
+Type: FolderType
+Children:
+- Name: Tekno_Server_Comm_NOK
+  Id: g=842e2fcf8df8b438177efc93faf2e611
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=54bd41c313e121c38b334b683d414fcf
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f2c8b64f3012841b09aece03451c0d39
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=ec3896035853258d31058b27397163b8
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=9e2aba8da99f89cdfaeb1a1d890a6233
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{0} !=  1"
+      - Name: ns=7;Source0
+        Id: g=0d0d68574c7f22b4b9a1394bebd8bf83
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=fcf9b36fb2fd79c55954efe4a55e9815
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../DataStores/Tekno_Local_Database/Status@Value"
+  - Name: LastEvent
+    Id: g=4b6e629eb6f089ad25224a65feb1dcc8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=1bee2cd62a9218d7bd6d53491ef2ffe1
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Tekno Local Database Communication Failed"}
+  - Name: AutoAcknowledge
+    Id: g=64b728cf3c06f38b715ca32f605fc5b8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: PLC_Comm_NOK
+  Id: g=9fe25072e3165b3533050c553a1c8b58
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=012bc25342241bdd35352976411c2872
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f4e2bdcdd0347045d491732517a1ed29
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=58483c396d1820ee5c581dd2a732480f
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=2db54391b2ab7a909421ec83a2f99c47
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{0} != 1"
+      - Name: ns=7;Source0
+        Id: g=3746e7313448cc5af20a69169e6d1419
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=898c3474f7e64311b89dbf4133c2fbd4
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../CommDrivers/AB/ShowLine/OperationCode"
+  - Name: LastEvent
+    Id: g=0e16f269376326492c0d11a1bd7e1afd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=840710d8551018b86e893038e4570149
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Show Line PLC Communication Failed"}
+  - Name: AutoAcknowledge
+    Id: g=9e19614f5f91c51f5e147200d339de09
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: Cloud_Server_Comm_NOK
+  Id: g=77d52baeb383aafab3e547591b2c2284
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=50fd923e0ca55e9d2f12120a7ddff7b9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3f55f330283315f1bcffa398959d1ad6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=e378c5d9400d847a1c45f3edf6888126
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=1a35c849b954e12d28fdb4413acf1ebb
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{0} !=  1"
+      - Name: ns=7;Source0
+        Id: g=336e11c3d8e6f491099cc918eae597e3
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=8441b65454c4837865f018c3316f25bf
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../DataStores/Test_Cloud_Database/Status@Value"
+  - Name: LastEvent
+    Id: g=8404d3b23df18a1f383f647237d12160
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=00a9b6963a1c848d9718b10bf896df65
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Tekno Cloud Database Communication Failed"}
+  - Name: AutoAcknowledge
+    Id: g=f375195d1ed619dcf6b074cf2d6ae4cd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

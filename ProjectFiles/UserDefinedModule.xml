@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>Test_MES_System_v20UserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="1c241421644333b9f029a5eeffa65ad9" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="5610d3257782811ad3df7f3737f76a91" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="cbab008438672c4d93f442dcbe96d9f9" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="01a7e8933afd7c95fe894b0859308138" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="d3c53a29865e8c73295e0d3283fe0fd6" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="2ab432d5b6bdb3b930aa79cef8575ee8" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="a2ce1febe9f4f87dd11a6b437c979752" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="57fcf605502fb49dafa925921816781e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="0125584205dfcbbc9df74b556042e665" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="5954affdda1a4b8705de96eea36bfcb9" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="7177bdedc2f13fe1ea4d6fbb96b0d021" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="b2482f05355d9b88f3f5e3ba66a8f3c5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="354eb69565571465bc2b25c61c267a33" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="e3c87e803137347085cdb906e7a1155c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="81583b992735599e02a45ee5df40e4a5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="d1990642cae2c4f4bde745a8cbc5dcbc" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="6e2a6b72892b547c7673587dc752e93f" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="842b646760fb28f6acbc014278bd77ab" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="e8759281d5bd4e0e6c3497e5bd4da5e7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="2ee33a86e1a4cc98f8e4e3193e0c805a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="b1f86ef017cf180b15f672d715106945" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="bc03cd850ba9ebc89999affb4ff59ae6" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="0db652fa3cef37d8947eb1f8fb097a4e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="21e37f21a925fa530756c39f20fae763" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="6c91676d8e508abe5aaa723a5cf5e2e9" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="e51c9412256a99443f38839f7959d2b1" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="f89beff8bb06923a9a395d4922b85d3d" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="5da37d4d564b385519d35712865035c5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="25931003d525de52be7825d4fc6db58a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="20c279b73d9c8492cacbf22d09d1725c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="433322de043be9416b1feafb249ccd7c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="a01ee855e3264a5d3edb96414d3afb66" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="8d4a2201e1f106f621a4a8691950de2a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="2559dd952f1351f0ae2cc6eb695cf1cf" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="be18544243a4018c15529e21319e547b" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="4f260e0b94185b98ae877087fb5687be" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="d02e97f37b729b299f21620a4fbd199f" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="4819d9000d9dbeac058efa87ce20bac0" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="0349018803b3fe510c46e4e6c4ae4e4a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="45df72d1dd5b0019e64ca92e3f9de2ca" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="e50804367564e2ab12adfe523df61966" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="0b0637d2105de4b96afe5845a8f8ea56" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="02a022c75cbc47ee1f4781bdb518bf26" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="61ce2a385c17da117e55eed6489bc031" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="ecff2873ce66ff784dd6d9f6bb5edff7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="9f4416b8532fd13e03bf6ae2c89f2169" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="aa66bbd8e601893519d7ee7287da22be" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="29a5c5dc513d9b75c72f9b626fad0f4f" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="9b0ff01125ce0d75b7d80c504ab57b49" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="8928d32a5911cac280be4ce6cc0dfc32" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Test_MES_System_v20" guid="ce9a9cb6f464045c7412fc73dbcf8923" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>

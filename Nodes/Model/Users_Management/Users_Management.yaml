@@ -1,0 +1,35 @@
+Name: Users_Management
+Type: FolderType
+Children:
+- Name: Roles
+  Id: g=b6c7a6595495c3b7d6b646bdc070b3a0
+  Type: BaseObjectType
+  Children:
+  - Name: Admin
+    Id: g=2a7e3b29cd1d959423562a71046c53a5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Administrator"
+  - Name: Supervisor
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Supervisor"
+  - Name: Technician
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Technician"
+  - Name: Operator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Operator"
+- Name: Current_User_Role
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: Current_User_Name
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "Anonymous"
+- Name: Logged_In
+  Type: BaseDataVariableType
+  DataType: Boolean

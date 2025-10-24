@@ -1,0 +1,8 @@
+Name: Config
+Type: FolderType
+Children:
+- File: Stations/Stations.yaml
+- File: Recipes/Recipes.yaml
+- File: Variants/Variants.yaml
+- File: Pallets/Pallets.yaml
+- File: PickToLight/PickToLight.yaml

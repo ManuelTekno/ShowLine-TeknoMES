@@ -1,0 +1,4 @@
+Name: Loggers
+Type: LoggersCategoryFolder
+Children:
+- File: StationDataLogs/StationDataLogs.yaml
